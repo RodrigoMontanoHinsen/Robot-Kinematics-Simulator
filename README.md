@@ -10,19 +10,23 @@ This project solves the Forward Kinematics problem for a planar robotic arm. Giv
 
 The simulation uses Forward Kinematics Equations. For a 2-DOF arm, the position is determined by:
 
+```math
 X = L_1 \cos(\theta1) + L_2 \cos(\theta_1 + \theta_2)
-
+```
 Note: The code includes a built-in conversion from radians to degrees to ensure user-friendly inputs.
 
 💻**Logic Flow**
 
 graph LR
 
+```mermaid
+
 A[Link Lengths L1, L2] --> C{Logic Engine}
 
 B[Joint Angles 01, 02] --> C
 
 C --> D[Final X, Y Coordinates]
+```
 
 🚀**How to run**
 
