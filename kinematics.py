@@ -16,7 +16,7 @@ def calculate_direct_kinematics(L1, L2, theta1_degrees, theta2_degrees):
 
 if __name__ == "__main__":
     L1 = 5.0        # distance shoulder -> elbow
-    L2 = 3.0        # longitud elbow  -> wrist
+    L2 = 3.0        # distance elbow  -> wrist
     theta1 = 30     # degree of shoulder
     theta2 = 45     # degree of elbow
     
