@@ -22,9 +22,7 @@ graph LR
 ```mermaid
 
 A[Link Lengths L1, L2] --> C{Logic Engine}
-
 B[Joint Angles 01, 02] --> C
-
 C --> D[Final X, Y Coordinates]
 ```
 
