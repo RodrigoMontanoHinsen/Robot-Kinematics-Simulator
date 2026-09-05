@@ -1,4 +1,4 @@
-🦾 ### Robot Kinematics Simulator (2-DOF)###
+🦾**Robot Kinematics Simulator (2-DOF)**
 
 Python-based tool to calculate the end-effector position of a two-bar linkage robotic arm.
 
@@ -19,11 +19,15 @@ Note: The code includes a built-in conversion from radians to degrees to ensure 
 graph LR
 
 A[Link Lengths L1, L2] --> C{Logic Engine}
+
 B[Joint Angles 01, 02] --> C
+
 C --> D[Final X, Y Coordinates]
 
 🚀**How to run**
 
 Ensure you have Python installed.
+
 Run python kinematics.py.
+
 Input the link distances and angles when prompted.
